@@ -1,7 +1,11 @@
-require "./fizzbuzz/*"
+class Fizzbuzz
+  def fizzbuzz_of(number : Number)
+    divisible_by_3 = number.divisible_by?(3)
+    divisible_by_5 = number.divisible_by?(5)
 
-module Fizzbuzz
-  def self.process(number : Number)
-    number
+    return "Fizzbuzz" if (divisible_by_3 && divisible_by_5)
+    return "Fizz"     if (divisible_by_3)
+    return "Buzz"     if (divisible_by_5)
+    return number
   end
 end
