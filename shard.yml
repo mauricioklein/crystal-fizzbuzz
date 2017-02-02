@@ -1,0 +1,13 @@
+name: fizzbuzz
+version: 0.1.0
+
+authors:
+  - Mauricio Klein <mauricio.klein.msk@gmail.com>
+
+targets:
+  poc:
+    main: src/fizzbuzz.cr
+
+crystal: 0.20.5
+
+license: MIT
