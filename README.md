@@ -1,22 +1,33 @@
+[![Build Status](https://travis-ci.org/mauricioklein/crystal-fizzbuzz.svg?branch=master)](https://travis-ci.org/mauricioklein/crystal-fizzbuzz)
+
 # Fizzbuzz
 
-TODO: Write a description here
+A simple FizzBuzz implementation on Crystal (study purpose).
 
 ## Installation
 
-TODO: Write installation instructions here
+```sh
+$ crystal deps
+```
+
+## Tests
+
+```sh
+$ crystal spec
+```
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+```crystal
+Fizzbuzz.of(3) # "Fizz"
+Fizzbuzz.of(5) # "Buzz"
+Fizzbuzz.of(15) # "FizzBuzz"
+Fizzbuzz.of((5..10)) # "Buzz, Fizz, 7, 8, Fizz, Buzz"
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/poc/fork )
+1. Fork it ( https://github.com/[mauricioklein]/crystal-fizzbuzz/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -24,4 +35,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name])  - creator, maintainer
+- [[mauricioklein]](https://github.com/[mauricioklein])  - creator, maintainer
